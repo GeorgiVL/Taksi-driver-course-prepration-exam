@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: salmon;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: #333;
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+.exeBtn,
+.tryBtn,
+.nextBtn,
+.hintBtn,
+.restBtn,
+.endBtn,
+.nextBtnExam,
+.homeBtn {
+  width: 160px;
+  height: 40px;
+  border-radius: 15px;
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  background-color: #333;
+  cursor: pointer;
+}
+
+.exeBtn:hover,
+.tryBtn:hover,
+.nextBtn:hover,
+.hintBtn:hover,
+.restBtn:hover,
+.endBtn:hover,
+.nextBtnExam:hover,
+.homeBtn:hover {
+  background-color: #555;
+}
+
+.showQuestionHead {
+  color: #fff;
+}
+
+.head2 {
+  color: wheat;
+  margin-left: 20px;
+}
+
+.correctLable {
+  font-weight: bold;
+}
+
+.correctSpan {
+  margin-left: 5px;
+}
+
+.correctCheckbox {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+.incorrectLable {
+  font-weight: bold;
+}
+
+.incorrectSpan {
+  margin-left: 5px;
+}
+
+.incorrectCheckbox {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
